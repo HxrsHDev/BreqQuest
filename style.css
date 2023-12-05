@@ -1,0 +1,115 @@
+ @font-face {
+    font-family: 'brew';
+    src: url(font.ttf);
+ }
+
+ body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            /* display: flex;
+            justify-content: center; */
+            align-items: center;
+            height: 100vh;
+                      background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .search-box{
+            justify-content: center;
+            height: 1200px;
+        }
+        .result-container{
+            margin-bottom: 40px;
+            margin-top: 20px;
+        }
+.background-container {
+    background-image: url('images/beer-glass-front-blurred-background.jpg');
+    background-size:cover; 
+    background-position: center; 
+ 
+}
+        .heading{
+        background-color: rgba(255, 255, 0, 0.7);
+        backdrop-filter: blur(150px);
+
+    }
+.heading-text{
+    padding :13px;
+}
+
+        .form-header{
+        text-align: center;
+        }
+        
+        .formclass{
+                display: grid;
+    place-items: center;
+    height: 100vh; 
+        }
+        .form {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            text-align: left;
+            margin-top:-132px ;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 35px;
+            width: 400px;
+            backdrop-filter: blur(5px);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        input {
+            outline: none;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.5);
+            box-sizing: border-box;
+            font-size: 16px;
+            
+        }
+input:focus {
+    border: 2px solid #080808; /* Change the border color to your preference */
+    box-shadow: 0 0 5px rgba(4, 13, 22, 0.5); /* Optional: Add a subtle box shadow */
+}
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+            margin: auto;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .already-account {
+            color: #333;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .already-account a {
+            color: #007bff;
+            text-decoration: none;
+        }
+   
